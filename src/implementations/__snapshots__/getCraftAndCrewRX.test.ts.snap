@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getCraftAndCrewRX gets nnn 1`] = `
+SafeSubscriber {
+  "_finalizers": Array [
+    OperatorSubscriber {
+      "_complete": [Function],
+      "_error": [Function],
+      "_finalizers": Array [
+        OperatorSubscriber {
+          "_complete": [Function],
+          "_error": [Function],
+          "_finalizers": Array [
+            [Function],
+            OperatorSubscriber {
+              "_complete": [Function],
+              "_error": [Function],
+              "_finalizers": null,
+              "_next": [Function],
+              "_parentage": [Circular],
+              "closed": false,
+              "destination": [Circular],
+              "initialTeardown": undefined,
+              "isStopped": false,
+              "onFinalize": undefined,
+              "shouldUnsubscribe": undefined,
+            },
+            [Function],
+          ],
+          "_next": [Function],
+          "_parentage": [Circular],
+          "closed": false,
+          "destination": [Circular],
+          "initialTeardown": undefined,
+          "isStopped": false,
+          "onFinalize": undefined,
+          "shouldUnsubscribe": undefined,
+        },
+      ],
+      "_next": [Function],
+      "_parentage": [Circular],
+      "closed": false,
+      "destination": [Circular],
+      "initialTeardown": undefined,
+      "isStopped": false,
+      "onFinalize": undefined,
+      "shouldUnsubscribe": undefined,
+    },
+  ],
+  "_parentage": null,
+  "closed": false,
+  "destination": ConsumerObserver {
+    "partialObserver": Object {
+      "complete": undefined,
+      "error": undefined,
+      "next": [Function],
+    },
+  },
+  "initialTeardown": undefined,
+  "isStopped": false,
+}
+`;

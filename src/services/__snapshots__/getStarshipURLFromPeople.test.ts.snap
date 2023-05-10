@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getStarshipURLFromPeople returns a y-wing if you have no starships 1`] = `
+Array [
+  "https://swapi.dev/api/starships/11/",
+]
+`;

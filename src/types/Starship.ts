@@ -1,22 +1,22 @@
 import { People } from './People';
 
 export interface Starship {
-  name: string;
-  model: string;
-  manufacturer: string;
-  costInCredits: string;
-  length: string;
-  maxAtmospheringSpeed: string;
-  crew: string;
-  passengers: string | People[];
   cargoCapacity: string;
   consumables: string;
-  hyperdriveRating: string;
-  mglt: string;
-  starshipClass: string;
-  pilots: string[];
+  costInCredits: string;
+  created: Date | string;
+  crew: string;
+  edited: Date | string;
   films: string[];
-  created: Date;
-  edited: Date;
+  hyperdriveRating: string;
+  length: string;
+  manufacturer: string;
+  maxAtmospheringSpeed: string;
+  mglt: string;
+  model: string;
+  name: string;
+  passengers: string | People[];
+  pilots: string[];
+  starshipClass: string;
   url: string;
 }

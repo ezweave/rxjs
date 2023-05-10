@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getStarship gets starships for each url 1`] = `
+Array [
+  Object {
+    "MGLT": "100",
+    "cargo_capacity": "110",
+    "consumables": "1 week",
+    "cost_in_credits": "149999",
+    "created": "2014-12-12T11:19:05.340000Z",
+    "crew": "1",
+    "edited": "2014-12-20T21:23:49.886000Z",
+    "films": Array [
+      "https://swapi.dev/api/films/1/",
+      "https://swapi.dev/api/films/2/",
+      "https://swapi.dev/api/films/3/",
+    ],
+    "hyperdrive_rating": "1.0",
+    "length": "12.5",
+    "manufacturer": "Incom Corporation",
+    "max_atmosphering_speed": "1050",
+    "model": "T-65 X-wing",
+    "name": "X-wing",
+    "passengers": "0",
+    "pilots": Array [
+      "https://swapi.dev/api/people/1/",
+      "https://swapi.dev/api/people/9/",
+      "https://swapi.dev/api/people/18/",
+      "https://swapi.dev/api/people/19/",
+    ],
+    "starship_class": "Starfighter",
+    "url": "https://swapi.dev/api/starships/12/",
+  },
+  Object {
+    "MGLT": "50",
+    "cargo_capacity": "80000",
+    "consumables": "2 months",
+    "cost_in_credits": "240000",
+    "created": "2014-12-15T13:04:47.235000Z",
+    "crew": "6",
+    "edited": "2014-12-20T21:23:49.900000Z",
+    "films": Array [
+      "https://swapi.dev/api/films/2/",
+      "https://swapi.dev/api/films/3/",
+    ],
+    "hyperdrive_rating": "1.0",
+    "length": "20",
+    "manufacturer": "Sienar Fleet Systems",
+    "max_atmosphering_speed": "850",
+    "model": "Lambda-class T-4a shuttle",
+    "name": "Imperial shuttle",
+    "passengers": "20",
+    "pilots": Array [
+      "https://swapi.dev/api/people/1/",
+      "https://swapi.dev/api/people/13/",
+      "https://swapi.dev/api/people/14/",
+    ],
+    "starship_class": "Armed government transport",
+    "url": "https://swapi.dev/api/starships/22/",
+  },
+]
+`;
